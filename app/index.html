@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Household Budget Planner</title>
+<meta name="description" content="HomeLedger helps your household plan a monthly budget, track spending, reach savings goals and follow the 50/30/20 rule.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="14" width="28" height="16" rx="3" fill="#0e7a5f"/><path d="M4 15 16 4l12 11" fill="none" stroke="#0e7a5f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="13" y="20" width="6" height="10" rx="1" fill="#fff"/></svg>
+      <span class="brand-name">HomeLedger</span>
+      <span class="brand-tag">household budget</span>
+    </a>
+    <nav class="mainnav" aria-label="Main navigation">
+      <a href="#/" data-nav="dashboard">Overview</a>
+      <a href="#/planner" data-nav="planner">Budget Planner</a>
+      <a href="#/breakdown" data-nav="breakdown">Spending Breakdown</a>
+      <a href="#/goals" data-nav="goals">Savings Goals</a>
+      <a href="#/guide" data-nav="guide">50/30/20 Guide</a>
+      <a href="#/tips" data-nav="tips">Money Tips</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="sitefoot">
+  <div class="wrap foot-in">
+    <p><strong>HomeLedger</strong> — a household budget planner that runs entirely in your browser. Your figures stay on your device; nothing is uploaded.</p>
+    <p class="foot-links">
+      <a href="#/planner">Plan a budget</a> · <a href="#/breakdown">See where money goes</a> · <a href="#/goals">Set a savings goal</a> · <a href="#/guide">Learn the 50/30/20 rule</a> · <a href="#/tips">Save more each month</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
